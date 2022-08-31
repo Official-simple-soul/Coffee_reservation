@@ -46,11 +46,24 @@
     border-color: #67e5cb;
 }
 
-#third-screen button {
+.lot {
+    transition: all 1s ease;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.lot button {
     border-radius: 10px;
     border: 1px solid #22C4A2 !important;
 }
 
 .facebook, .google {
     border-color: #67e5cb !important;
+}
+
+.sizee {
+    font-size: 14px;
+}
+
+legend {
+    font-size: 14px;
 }

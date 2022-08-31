@@ -1,10 +1,9 @@
 let firstScreen = document.getElementById('first-screen')
 let secondScreen = document.getElementById('second-screen')
-let thirdScreen = document.getElementById('third-screen')
+let thirdScreen = document.querySelector('.lot')
 let regActive = document.querySelectorAll('.reg-page h4')
 let signUpInput = document.querySelector('.sign-up-input')
 let getStarted = document.querySelector('#second-screen button')
-
 let change = 0
 setInterval(() => {
     change++
@@ -23,10 +22,8 @@ regActive.forEach(function(item) {
     item.addEventListener('click', function() {
         regActive.forEach(function(nav) {
             nav.classList.remove('reg-active')
-            signUpInput.classList.add('d-none')
         })
         this.classList.add('reg-active')
-        signUpInput.classList.remove('d-none')
         
     })
 })
