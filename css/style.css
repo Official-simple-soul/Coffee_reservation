@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+* {
+    /* font-family: 'Poppins', sans-serif; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#first-screen {
+    height: 100vh;
+    width: 100%;
+    background-color: #22C4A2;
+    transition: all ease 1s;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+#second-screen {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.715)), url(/img/Splash\ screen.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    transition: all ease 1s;
+}
+
+.reg-active {
+    border-bottom: 2px solid #1A977D;
+    color: #1A977D !important;
+}
+
+.round-input {
+    border-radius: 10px;
+    background-color: #ededed;
+}
+
+.round-input:focus {
+    border-color: #67e5cb;
+}
+
+#third-screen button {
+    border-radius: 10px;
+    border: 1px solid #22C4A2 !important;
+}
+
+.facebook, .google {
+    border-color: #67e5cb !important;
+}
