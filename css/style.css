@@ -24,7 +24,7 @@
 }
 
 #second-screen {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.715)), url(/img/Splashscreen.png);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.715)), url(../img/Splashscreen.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
 
 .round-input:focus {
-    border-color: #67e5cb;
+    outline-color: #67e5cb !important;
 }
 
 .lot {
