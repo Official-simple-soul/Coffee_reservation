@@ -4,6 +4,7 @@ let thirdScreen = document.querySelector('.lot')
 let regActive = document.querySelectorAll('.reg-page h4')
 let signUpInput = document.querySelector('.sign-up-input')
 let getStarted = document.querySelector('#second-screen button')
+
 let change = 0
 setInterval(() => {
     change++
