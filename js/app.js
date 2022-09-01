@@ -35,3 +35,7 @@ getStarted.addEventListener('click', function(){
     thirdScreen.classList.remove('d-none')
     thirdScreen.classList.remove('hide') 
 })
+
+document.querySelector('.login').addEventListener('click', function() {
+    location.href = 'home.html'
+})
